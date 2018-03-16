@@ -30,10 +30,6 @@ describe('check CP_Alma last run', function() {
         PboPage.jobMonitorLink.click();
     });
 
-    //it('stage should be completed successfully', function() {
-    //        expect(PboPage.cpAlmaStage.getText()).toBe('completed successfully');
-    //});
-
     it('stage should be completed successfully', function() {
             expect(PboPage.jobStats('CP_Alma', 1)).toBe('completed successfully');
     });

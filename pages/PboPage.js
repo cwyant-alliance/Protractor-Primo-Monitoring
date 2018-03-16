@@ -21,8 +21,6 @@ var PboPage = function() {
       return element(by.xpath('//td[text()[contains(.,"' + job + '")]]/following-sibling::td[' + cell + ']')).getText();
     };
 
-    //this.feStats = function()
-
     this.sliceCount = function() {
         return element.all(by.xpath('//tr[contains(@class, "bottomTr")]'));
     };
@@ -32,7 +30,6 @@ var PboPage = function() {
     };
 
 };
-
 
 PboPage.prototype = BasePage;
 module.exports = new PboPage();

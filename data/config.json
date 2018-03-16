@@ -7,5 +7,5 @@
     "institution": "LCC",
     "environment": "sandbox",
     "view": "LCC_NEWUI",
-	"pboBaseUrl": "https://alliance-primo-sb.hosted.exlibrisgroup.com:1443/primo_publishing/admin/acegilogin.jsp"
+    "pboBaseUrl": "https://alliance-primo-sb.hosted.exlibrisgroup.com:1443/primo_publishing/admin/acegilogin.jsp"
 }
