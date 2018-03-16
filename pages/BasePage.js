@@ -1,4 +1,3 @@
-browser.ignoreSynchronization = true;
 var BasePage = function() {
     /**
      * wait and verify that a page is loaded
