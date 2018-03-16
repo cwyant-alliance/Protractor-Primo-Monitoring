@@ -28,6 +28,8 @@ exports.config = {
         maxInstances: 2,
         chromeOptions: {
             args: [
+                '--headless',
+                '--no-sandbox',
                 '--disable-infobars',
                 '--disable-extensions',
                 'verbose'
