@@ -5,7 +5,7 @@ var PboPage = function() {
 
 //    this.url = 'https://alliance-primo-sb.hosted.exlibrisgroup.com:1443/primo_publishing/admin/action/menus.do';
     this.url = 'https://alliance-primo-sb.hosted.exlibrisgroup.com:1443'
-    this.pageLoaded = this.inDom($('welcome'));
+    this.pageLoaded = this.inDom($('.welcome'));
 
     /**
      * Link elements

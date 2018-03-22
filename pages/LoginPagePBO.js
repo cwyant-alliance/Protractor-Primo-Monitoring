@@ -9,7 +9,7 @@ var LoginPagePBO = function() {
      * URLs
      */
     this.url = config.pboBaseUrl;
-    this.pageLoaded = this.and(this.isVisible(element(by.name('loginForm'))));
+    this.pageLoaded = this.inDom($('loginForm'));
 
     /**
      * Elements

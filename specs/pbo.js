@@ -20,8 +20,7 @@ describe('logging in to primo back office', function() {
 
         it('should work with a known good account', function() {
             LoginPagePBO.loginAs(users.cwyant);
-            //expect(LoginPagePBO.at()).toBeTruthy();
-            expect(PboPage.pageLoaded()).toBeTruthy();
+            expect(element(by.css('.welcome')).isDisplayed()).toBeTruthy();
         });
 
 }); // logging in
